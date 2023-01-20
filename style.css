@@ -24,15 +24,29 @@ body {
 }
 .title {
     padding-bottom: 3vh;
-    text-transform: uppercase;
     font-size: 2.5em;
+    text-align: center;
 }
 .timer {
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    gap: 2vw;
     font-size: 2.5em;
+}
+
+.box {
+    background-color: rgba(230,230,230,1);
+    padding: 2vh;
+    border-radius: 10px;
+    color: black;
+}
+
+.label {
+    font-size: .5em;
+    color: black;
+    padding-top: 2vh;
 }
 
 @keyframes gradient {
