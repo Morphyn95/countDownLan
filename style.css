@@ -38,9 +38,14 @@ body {
 
 .box {
     background-color: rgba(230,230,230,1);
-    padding: 2vh;
+    min-width: 10vh;
+    min-height: 10vh;
     border-radius: 10px;
     color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .label {
